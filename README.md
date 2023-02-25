@@ -29,7 +29,7 @@ e. Finally, add the following h1 to the body: Homepage
 f. Create another HTML file named about.html
 
 g. Back in the index page, add the following anchor element below the h1
-element: <ahref=”https://theuselessweb.com/”> click me </a> <ahref="about.html">About</a>
+element: <ahref=”https://theuselessweb.com”> click me </a> <ahref="about.html">About</a>
 
 h. Open the index file in a browser and click on the About link to make sure it is all wired together correctly. Clicking the link should go to the empty about page you just created (you can fill it in if you like)
 
