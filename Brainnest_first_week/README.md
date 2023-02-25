@@ -29,19 +29,11 @@ e. Finally, add the following h1 to the body: Homepage
 f. Create another HTML file named about.html
 
 g. Back in the index page, add the following anchor element below the h1
-<<<<<<< HEAD
 element: <a href=”https://theuselessweb.com/”>click me</a> <a href="about.html">About</a>
 
 h. Open the index file in a browser and click on the About link to make sure it is all wired together correctly. Clicking the link should go to the empty about page you just created (you can fill it in if you like)
 
 i. Create a directory named pages within the links-and-images directory and move the about.html file into this new directory. Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the About page file has changed. To fix this, you just need to update the about link href value to include the pages directory since that is the new location of the about file relative to the index file. <a href="./pages/about.html">About</a>
-=======
-element: <ahref=”https://theuselessweb.com”> click me </a> <ahref="about.html">About</a>
-
-h. Open the index file in a browser and click on the About link to make sure it is all wired together correctly. Clicking the link should go to the empty about page you just created (you can fill it in if you like)
-
-i. Create a directory named pages within the links-and-images directory and move the about.html file into this new directory. Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the About page file has changed. To fix this, you just need to update the about link href value to include the pages directory since that is the new location of the about file relative to the index file. <ahref="./pages/about.html">About</a>
->>>>>>> ae273c4c60c5072a670929890033ef328f2559b4
 
 j. In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending ./ before the link will in most cases prevent such issues. By adding ./ you are specifying to your code that it should start looking for the file/directory relative to the current directory. You can also add a link to get back from the About page to your homepage
 
@@ -62,8 +54,4 @@ l. As a bit of practice, add an alt attribute to the first-img you added to thel
 ### **Part3 (Main HTML project):**
 
 For presentation make a few page presentation website about your hobby/favorite books/movies etc. Your website should contain a homepage with a link to go inside to the page where your material should be presented in list form, with links leading to pages with the description(text & image) of your chosen subject. As an added bonus, you can make each list element into a link, leading to the page where additional information about said subject can be found(images are always welcomed, just don't over do it :D)
-<<<<<<< HEAD
 ***
-=======
-***
->>>>>>> ae273c4c60c5072a670929890033ef328f2559b4
